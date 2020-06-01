@@ -23,8 +23,8 @@ header {
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .header-list li {
@@ -46,20 +46,20 @@ a {
 }
 
 .top {
-  margin-top: 5em;
-  height: 35em;
+  margin-top: 2em;
+  height: 20em;
   width: 100%;
   background-color: rgba(56, 116, 116, 0.562);
+  text-align: center;
+  font-size: 2em;
 }
 
 .Identity-contents {
   margin-bottom: 30em;
-  background-color: rebeccapurple;
 }
 
 .Identity-left {
   font-size: 1.1em;
-  background-color: black;
   margin-top: 9.5em;
   height: 20em;
   width: 50%;
@@ -68,7 +68,6 @@ a {
 }
 
 .Identity-right {
-  background-color: magenta;
   margin-top: 10em;
   height: 18em;
   width: 45%;
@@ -87,25 +86,25 @@ a {
   width: 60%;
 }
 .Work-right li {
-    color: darkgrey;
+  color: darkgrey;
 }
 .Work-content {
-  background-color: black;
   margin: 3em;
 }
 
 .Work-contents li {
   list-style: none;
-}
-
-.work-left {
-  float: left;
+  padding: 0.1em 0em;
 }
 
 .Work-left img {
-  padding-top: 10em;
+  padding-top: 15em;
   height: 40%;
   width: 30%;
+}
+
+.Name-picture {
+  float: right;
 }
 
 /*
@@ -184,24 +183,25 @@ a {
 */
 
 .scroll-top {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 100;
-    background-color: #999;
-    opacity: .8;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    color: #fff;
-    font-size: 1.5em;
-  }
-  .scroll-top:hover {
-    cursor: pointer;
-  }
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  background-color: #999;
+  opacity: 0.8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+.scroll-top:hover {
+  cursor: pointer;
+}
 
-
-  footer {
-    color: lightslategray;
-  }
+footer {
+  float: left;
+  margin-top: 30em;
+  color: lightslategray;
+}
