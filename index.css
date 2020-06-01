@@ -108,6 +108,7 @@ a {
   width: 30%;
 }
 
+/*
 .Contact {
   padding: 10em 0em;
 }
@@ -139,6 +140,7 @@ a {
   border-radius: 1em;
 }
 
+
 .btn-square-above-look {
   display: inline-block;
   position: relative;
@@ -160,11 +162,10 @@ a {
   width: calc(100% - 16px);
   height: 0;
   border: solid 8px transparent;
-  border-bottom-color: rgb(87, 214, 208); /*ボタン色より明るめの色に*/
+  border-bottom-color: rgb(87, 214, 208);
 }
 
 .btn-square-above-look:active {
-  /*押したとき*/
   padding: 0.32em 0.9em;
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
@@ -180,6 +181,7 @@ a {
   border-width: 6px;
 }
 
+*/
 
 .scroll-top {
     position: fixed;
