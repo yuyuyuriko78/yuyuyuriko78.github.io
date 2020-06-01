@@ -7,25 +7,24 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <button class="scroll-top" id="js-button">↑</button>
     <header>
         <div class="container">
             <div class="header-logo"></div>
             <div class="header-list">
                 <ul>
-                    <li>Contact</li>
-                    <li>Work</li>
-                    <li>Identity</li>
-                    <li>All</li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Identity">Identity</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    <div class="top">
+    <div class="top" id="top">
         <div class="container">
-            
         </div>
     </div>
-    <div class="Identity-contents">
+    <div class="Identity-contents" id="Identity">
         <div class="container">
             <div class="Identity-left">
                 <h1>Yuriko KAKINO</h1>
@@ -39,36 +38,69 @@
             </div>
         </div>
     </div>
-    <div class="Work-contents">
+    <div class="Work-contents" id="Work">
         <div class="container">
-            <div class="University">
-                <ul>
-                    <li>2016年度後期　学業優秀者表彰</li>
-                    <li>2017年度後期　学業優秀者表彰</li>
-                    <li>2019年度後期　学業優秀者表彰</li>
-                    <li>伊集守直ゼミナール　ゼミナール長</li>
-                    <li>2018年度　中央大学・立教大学・横浜国立大学合同討論会</li>
-                    <li>2019年度　中央大学・立教大学・横浜国立大学合同討論会　議長</li>
-                </ul>
+            <div class="Work-right">
+                <div class="Work-content" id="University">
+                    <ul>
+                        <h2>University</h2>
+                        <li>2016年度後期　学業優秀者表彰　首位</li>
+                        <li>2017年度後期　学業優秀者表彰</li>
+                        <li>2019年度後期　学業優秀者表彰</li>
+                        <li>2018年度　伊集守直ゼミナール　ゼミナール長</li>
+                        <li>2018年度　中央大学・立教大学・横浜国立大学合同討論会　幹事校代表</li>
+                        <li>2019年度　中央大学・立教大学・横浜国立大学合同討論会　議長</li>
+                    </ul>
+                </div>
+                <div class="Work-content" id="personalDev">
+                    <ul>
+                        <h2>個人開発</h2>
+                        <li>顔認識アプリ / Flask+Vue.js</li>
+                        <li>Kaggle</li>
+                    </ul>
+                </div>
+                <div class="Work-content" id="teamDev">
+                    <ul>
+                        <h2>チーム開発</h2>
+                        <li>犬猫判別アプリ / Flask+Vue.js</li>
+                        <li>地図マッピングアプリ / Flask </li>
+                    </ul>
+                </div>
+                <div class="Work-content" id="hobby">
+                    <ul>
+                        <h2>Other</h2>
+                        <li>イラストの雑誌掲載実績多数</li>
+                        <li>Photoshop練習中</li>
+                    </ul>
+                </div>
             </div>
-            <div class="Company">
-
-            </div>
-            <div class="Personal Development">
-
-            </div>
-            <div class="Hobby">
-
+            <div class="Work-left">
+                <img src="pic/pic3.jpg">
             </div>
         </div>
     </div>
-    <div class="Contact">
+    <div class="Name-picture">
+        <img src="pic/pic4.jpg">
+    </div>
+    <div class="Contact" id="Contact">
         <div class="container">
-            
+            <div class="Contact-left">
+                <p>name</p>
+                <input type="text">
+                <p>email</p>
+                <input type="text">
+            </div>
+            <div class="Contact-right">
+                <p>subject</p>
+                <textarea></textarea>
+            </div>
+            <div>
+                <a href="#" class="btn-square-above-look">送信</a>
+            </div>
         </div>
     </div>
     <footer>
-
+        <p>Copyright ©YurikoKAKINO All Rights Reserved.</p>
     </footer>
     <script src="index.js"></script>
 </body>
