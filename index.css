@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: ivory;
+}
+
+.container {
+    width: 80%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: lightslategray;
+}
+
+h1 {
+    color: ivory;
+}
+
+header {
+    background-color: rgba(0,0,0, 0.58);
+    position: fixed;
+    top: 0;
+    height: 4em;
+    width: 100%;
+}
+
+.header-list li {
+    list-style: none;
+    float: right;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    display: block;
+}
+
+.header-logo{
+    float: left;
+    font-size: 1.5em;
+}
+
+.top {
+    margin-top: 5em;
+    height: 40em;
+    width: 100%;
+    background-color: dimgrey;
+}
+
+.Identity-contens {
+    padding: 10em;
+    background-color: maroon;
+}
+
+.Identity-left {
+    font-size: 1em;
+    background-color: black;
+    margin-top: 10em;
+    height: 20em;
+    width: 50%;
+    float: left;
+}
+
+.Identity-right {
+    background-color: magenta;
+    margin-top: 10em;
+    height: 20em;
+    width: 50%;
+    float: right;
+}
+
+.Identity-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.Work {
+    
+}
